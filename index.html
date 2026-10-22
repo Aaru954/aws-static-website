@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Myntra Clone - Online Shopping for Men, Women & Kids</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="#" class="logo">Myntra</a>
+
+      <nav class="nav" aria-label="Main">
+        <ul>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Beauty</a></li>
+          <li><a href="#">Studio <sup>New</sup></a></li>
+        </ul>
+      </nav>
+
+      <div class="search">
+        <span class="search__icon">&#128269;</span>
+        <input type="text" placeholder="Search for products, brands and more" aria-label="Search">
+      </div>
+
+      <div class="actions">
+        <a href="#" class="actions__item"><span>&#128100;</span>Profile</a>
+        <a href="#" class="actions__item"><span>&#9825;</span>Wishlist</a>
+        <a href="#" class="actions__item"><span>&#128717;</span>Bag</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__content">
+        <p class="hero__tag">Big Fashion Sale</p>
+        <h1>Min. 50-80% Off</h1>
+        <p class="hero__sub">Top brands. Fresh styles. Free delivery on your first order.</p>
+        <a href="#deals" class="btn">Shop now</a>
+      </div>
+    </section>
+
+    <!-- ============ OFFER STRIP ============ -->
+    <section class="strip">
+      <div class="strip__item">Free shipping above &#8377;799</div>
+      <div class="strip__item">Easy 14-day returns</div>
+      <div class="strip__item">100% original products</div>
+      <div class="strip__item">Cash on delivery</div>
+    </section>
+
+    <!-- ============ CATEGORIES ============ -->
+    <section class="section">
+      <h2 class="section__title">Shop by category</h2>
+      <div class="categories">
+        <a href="#" class="cat cat--1"><span class="cat__emoji">&#128085;</span><span class="cat__name">T-shirts</span><span class="cat__off">Up to 60% off</span></a>
+        <a href="#" class="cat cat--2"><span class="cat__emoji">&#128087;</span><span class="cat__name">Dresses</span><span class="cat__off">Up to 70% off</span></a>
+        <a href="#" class="cat cat--3"><span class="cat__emoji">&#128086;</span><span class="cat__name">Jeans</span><span class="cat__off">Up to 55% off</span></a>
+        <a href="#" class="cat cat--4"><span class="cat__emoji">&#128095;</span><span class="cat__name">Footwear</span><span class="cat__off">Up to 65% off</span></a>
+        <a href="#" class="cat cat--5"><span class="cat__emoji">&#128092;</span><span class="cat__name">Bags</span><span class="cat__off">Up to 50% off</span></a>
+        <a href="#" class="cat cat--6"><span class="cat__emoji">&#8986;</span><span class="cat__name">Watches</span><span class="cat__off">Up to 75% off</span></a>
+      </div>
+    </section>
+
+    <!-- ============ DEALS ============ -->
+    <section class="section" id="deals">
+      <h2 class="section__title">Deals of the day</h2>
+      <div class="products">
+
+        <article class="card">
+          <div class="card__img g1"><span>&#128085;</span><em class="card__rating">4.3 &#9733; | 2.1k</em></div>
+          <div class="card__body">
+            <h3 class="card__brand">Roadster</h3>
+            <p class="card__name">Men Cotton Casual T-shirt</p>
+            <p class="card__price"><strong>&#8377;399</strong> <s>&#8377;999</s> <span>(60% OFF)</span></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img g2"><span>&#128087;</span><em class="card__rating">4.5 &#9733; | 1.4k</em></div>
+          <div class="card__body">
+            <h3 class="card__brand">Libas</h3>
+            <p class="card__name">Floral Print A-Line Dress</p>
+            <p class="card__price"><strong>&#8377;899</strong> <s>&#8377;2,999</s> <span>(70% OFF)</span></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img g3"><span>&#128086;</span><em class="card__rating">4.2 &#9733; | 3.8k</em></div>
+          <div class="card__body">
+            <h3 class="card__brand">HRX by Hrithik Roshan</h3>
+            <p class="card__name">Slim Fit Stretch Jeans</p>
+            <p class="card__price"><strong>&#8377;1,049</strong> <s>&#8377;2,499</s> <span>(58% OFF)</span></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img g4"><span>&#128095;</span><em class="card__rating">4.4 &#9733; | 980</em></div>
+          <div class="card__body">
+            <h3 class="card__brand">Puma</h3>
+            <p class="card__name">Unisex Running Sneakers</p>
+            <p class="card__price"><strong>&#8377;2,199</strong> <s>&#8377;5,999</s> <span>(63% OFF)</span></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img g5"><span>&#128092;</span><em class="card__rating">4.1 &#9733; | 650</em></div>
+          <div class="card__body">
+            <h3 class="card__brand">Lavie</h3>
+            <p class="card__name">Women Structured Handbag</p>
+            <p class="card__price"><strong>&#8377;1,299</strong> <s>&#8377;3,299</s> <span>(61% OFF)</span></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img g6"><span>&#8986;</span><em class="card__rating">4.6 &#9733; | 2.7k</em></div>
+          <div class="card__body">
+            <h3 class="card__brand">Fastrack</h3>
+            <p class="card__name">Men Analogue Watch</p>
+            <p class="card__price"><strong>&#8377;1,495</strong> <s>&#8377;2,995</s> <span>(50% OFF)</span></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img g7"><span>&#128083;</span><em class="card__rating">4.0 &#9733; | 430</em></div>
+          <div class="card__body">
+            <h3 class="card__brand">Sangria</h3>
+            <p class="card__name">Women Embroidered Kurta Set</p>
+            <p class="card__price"><strong>&#8377;1,199</strong> <s>&#8377;3,999</s> <span>(70% OFF)</span></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__img g8"><span>&#128374;</span><em class="card__rating">4.4 &#9733; | 1.1k</em></div>
+          <div class="card__body">
+            <h3 class="card__brand">Vincent Chase</h3>
+            <p class="card__name">UV Protected Sunglasses</p>
+            <p class="card__price"><strong>&#8377;749</strong> <s>&#8377;1,999</s> <span>(62% OFF)</span></p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ BRANDS ============ -->
+    <section class="section">
+      <h2 class="section__title">Top brands</h2>
+      <div class="brands">
+        <a href="#" class="brand">Nike</a>
+        <a href="#" class="brand">Adidas</a>
+        <a href="#" class="brand">H&amp;M</a>
+        <a href="#" class="brand">Levi's</a>
+        <a href="#" class="brand">Puma</a>
+        <a href="#" class="brand">Zara</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <h4>Online shopping</h4>
+        <a href="#">Men</a><a href="#">Women</a><a href="#">Kids</a><a href="#">Home &amp; Living</a><a href="#">Beauty</a>
+      </div>
+      <div class="footer__col">
+        <h4>Customer policies</h4>
+        <a href="#">Contact us</a><a href="#">FAQ</a><a href="#">Returns</a><a href="#">Track orders</a><a href="#">Privacy policy</a>
+      </div>
+      <div class="footer__col">
+        <h4>Useful links</h4>
+        <a href="#">Blog</a><a href="#">Careers</a><a href="#">Site map</a><a href="#">Gift cards</a><a href="#">Corporate info</a>
+      </div>
+      <div class="footer__col">
+        <h4>Keep in touch</h4>
+        <div class="social"><span>f</span><span>t</span><span>in</span><span>yt</span></div>
+        <p class="footer__note">100% original products. Easy returns within 14 days.</p>
+      </div>
+    </div>
+    <p class="footer__bottom">&copy; 2026 Myntra clone. Built for practice with HTML and CSS only.</p>
+  </footer>
+
+</body>
+</html>
